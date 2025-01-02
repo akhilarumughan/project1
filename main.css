@@ -1,0 +1,132 @@
+:root{
+    --clrprimary:#c81714;
+    --clrdark:#1b1b1b;
+    --clrlight:white;
+    --clrgray:gray;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logobox1 img{
+    height: 100px;
+}
+.logobox2 img{
+    height: 100px;
+
+} 
+
+.logobox2{
+    text-align: right;
+}
+
+.toplink{
+    border-right: 1px solid var(--clrgray);
+    padding: 0px 20px !important;
+}
+
+.toplink a.active{
+    background-color: var(--clrprimary);
+    color: var(--clrlight);
+    padding: 10px 20px !important;
+    display: inline-block;
+}
+.toplink:hover .d-menu{
+    display: block;
+    top: 100%;
+    left: 0px;
+}
+
+@media(max-width:992px){
+    .toplink{
+        border-right: none;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--clrlight) !important;
+}
+
+.nav-arrows img{
+    height: 20px;
+    padding-left: 20px;
+}
+
+.nav-arrows{
+    text-align: right;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+.owl-theme .owl-nav{
+    display: none;
+}
+
+.aboutsec{
+    background-image: url(img/aboutbg.jpg);
+    background-size: cover;
+    margin-top: 40px;
+    padding: 80px 0px;
+    color: var(--clrlight);
+    font-size: large;
+}
+
+.aboutsec p{
+    text-align: justify;
+}
+
+
+.teamsec{
+    background-color: #eaeaea;
+    padding: 50px 0px;
+}
+
+.owl-two h2{
+    color: var(--clrdark);
+}
+
+.icon1{
+    width: 25px !important;
+}
+.icon2{
+    width: 26px !important;
+}
+
+.footer{
+    background-color: var(--clrdark);
+    padding: 60px 0px;
+}
+.footer h6{
+    color: var(--clrlight);
+}
+.footer a{
+    color: var(--clrgray);
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 0px;
+    line-height: 1.7rem;
+}
+
+.copybox p{
+    color: var(--clrlight);
+    font-weight: bold;
+}
+.copybox a{
+    color: var(--clrprimary);
+    display: inline-block;
+}
+.copysec{
+    background-color: #777777;
+    padding: 20px 0px;
+}
+.historysec,.aboutussec{
+    padding: 50px 0px;
+    font-size: large;
+}
+.historybox h1,.aboutusbox h1{
+    color: var(--clrdark);
+}
